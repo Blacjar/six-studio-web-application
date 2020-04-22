@@ -1,0 +1,35 @@
+{
+	"hero": {
+		"greeting": "Welcome to Six!",
+		"introduction": "My name is Raj. I am a Photographer/Film Maker & Digital Marketer. I am excited to work on your project!",
+		"img_profile": "https://lh3.googleusercontent.com/UwPSFpPgiGRFoiJf7oAL8S5PAayNt-xAWLzJjwQdnm5GXIsqL-yIkNqhyo-FFQ02bUkkBOnGdSDzgGmbrmfF8xOuAGY",
+        "img_background": "https://lh3.googleusercontent.com/RH1WxCufTKQLwOdwkehXyfzd2D7KCsPNMaHNbnl6C_NJdaSXIvs_FY8MtAjpHAjqitr9LCHaWkEuHsADhy-QKZG0"
+    },
+    "projects":{
+    	"header":"My Projects!",
+    	"subheader":"Take a look at my most recent work!"
+    },
+	"service": {
+        "img_1": "https://lh3.googleusercontent.com/gZw2gibFTxpbeh3Ib9NDIZomVup18pX27yBJb7PVvLT-ickH9EsbFjcs0VhQQYJ_LT9mUUnJjRarz_CaZDxoRsP7",
+        "img_2": "https://lh3.googleusercontent.com/t4qKJLlVGyrQDwvUH6R9fDE9_J3gYgwL7qEoogrCuFLGn2Kkv0XEsj4-_bPXiYJP0JMZ6cuvHueX2M79vEJTjFFfASY",
+        "img_3": "https://lh3.googleusercontent.com/uOsmQSUxTHHpkXB2B-MJk5FJK16xSEmmr_8qcbjXpkfg7udbyjYugMTe9Thq7fa3iMQe94TmcxKGKt20Jxk3m3b0ow",
+        "img_4": "https://lh3.googleusercontent.com/wV5ezHwg-P-WEeG1pesrNpNBSDATqnTxr4ZTah_wld3ZXW-DbVmAXeAfq5qlyH6OvuKZttRF0nn2K0aaV8SvcI967Q",
+        "img_5": "https://lh3.googleusercontent.com/G23HGLZX7yNkzKWDe8oXRjIGgfznxgg-jKNTmtD2L4MMRPrSuI-77FcNJTK3xEyT2AbOfumIysFx-U3A78TxwbJQyw",
+        "img_6": "https://lh3.googleusercontent.com/MJwNNAhQaXFPTjlofNHh8wcL7Aftu4h0yDP5FTrGC5WZsb9iL9vEIn14Tlgh4K_1y3JIuGh13A1zVw7vdnJW23pLtZ0"
+    },
+    "contact":{
+    	"header":"Let's Collaborate!",
+    	"subheader":"If you're interested in working with me, fill out the form and i'll get back to you right away."
+
+    },
+    "posts": {
+        "img_1": "https://lh3.googleusercontent.com/Xda6C4oENDLRR3A4g6vDvUdcwyruvOWhCe_2SEtdoMWvrtfIziVqW8A98cYvz9a-Hx1L9N_tcRTI5Gl5CtOpG7tt",
+        "img_2": "https://lh3.googleusercontent.com/Ot_adwnbYyBOE00JK5Ymk4v4t9rOxnesziL9N6xbDUSO3CUj4nDE7uGGTONT76eCIid22P5UwwD7xlenJbsXC-qs5w",
+        "img_3": "https://lh3.googleusercontent.com/t30wrPfo4FmOco_vMWoskZvzp0T5RXTzI9gF6tyA0yRjPdVdtFag8CX_qBhVpfvFE1DfQ-F3OOrKAVXHU2jFbszAzA"
+    },
+    "testimonial": {
+        "img_1": "https://lh3.googleusercontent.com/sn1kanxn9ws5cPAq6j7cOSp99k4zuGU6n2tv1_wpM_q4wIcWdWH66VHozLtSgZrbJgLMa2BtdbB5PUxeWh266lPauSU",
+        "img_2": "https://lh3.googleusercontent.com/jnIgfUWRj6uSmAyLj2YEeEi-seWEzVoExEbRE-PmmGFxhJiEk6o4rK3l_eP-C_MqHeMQKf2IWm3fImOt-i49Meg-oQ"
+    }
+
+}

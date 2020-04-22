@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>six studio</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lft5OoUAAAAAGWrlsymKJDrnRiA-Q9EVZJ-gIkF"></script>
+
+
+    {{>head}}
+</head>
+
+<body>
+	
+    <div class="blocks-page">
+
+    {{>header2}}
+
+		<section style="background:url('{{{page.hero.img_background}}}=s2048');background-size:cover;background-position:center;">
+		    <div class="gradient-div py-3" style="height:76vh">
+
+		        <div class="container">
+		            <div class="row justify-content-center header-row">
+		                <div class="col-12 col-md-8 col-lg-7 text-center text-white">
+		                	<img class="mt-4" style="width:160px;border-radius:50%" src="{{{page.hero.img_profile}}}=s320-c" />
+		                    <h1 class="display-3 mt-1">{{page.hero.greeting}}</h1>
+		                    <p class="lead text-white mb-4 mt-1">
+		                    	{{page.hero.introduction}}
+		                    </p>
+		                    <a href="#subscribeForm" class="btn btn-info btn-lg">BOOK NOW</a>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+
+		<section class="py-5 py-md-7">
+		    <div class="container py-md-5">
+		        <div class="row block-header">
+		            <div class="col-sm-8 mx-auto text-center">
+		                <h1 id="projects" class="display-4 mt-2">{{page.projects.header}}</h1>
+		                <hr>
+		                <p class="lead">{{page.projects.subheader}}</p>
+		            </div>
+		        </div>
+
+		        <div class="row mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+		        	{{#projects}}
+		            <div class="col-md-4 col-sm-12 mb-2r">
+		                <a href="/project/{{slug}} ">
+		                    <div class="position-relative project">
+		                        <div class="image position-relative ">
+		                            <img src="{{{image}}}=s650-c" class="img-fluid w-100 d-block">
+		                            <div class="overlay-box">
+		                                <div class="overlay-inner overlay-content">
+		                                    <h5 class="mb-0">{{name}}</h5>
+		                                    <p>{{category}}</p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </a>
+		            </div>
+		            {{/projects}}
+		        </div>
+		    </div>
+		</section>
+
+		{{>posts}}
+ 		
+
+		<section class="py-md-5 block">
+		    <div class="container">
+		        <div class="row block-header">
+		            <div class="col-sm-8 mx-auto text-center">
+		                <h1 id="six-services" class="display-4 mt-2">Six Services</h1>
+		                <hr>
+		                <p class="lead">Below are some of the top categories for services i offer. If you have a more specific service, send me a message at the bottom of the page and i will get back to you right away.</p>
+		            </div>
+		        </div>
+		        <div class="row mt-5">
+		            <div class="col-md-4 service mb-5 aos-init aos-animate">
+		                <img class="icon mr-4" src="{{{page.service.img_1}}}">
+		                <div class="content">
+		                    <h5>Photography</h5>
+		                    <p>Taking an image, freezing a moment, reveals how rich reality truly is.</p>
+		                </div>
+		            </div>
+		            <div class="col-md-4 service mb-5 aos-init aos-animate">
+		                <img class="icon mr-4" src="{{{page.service.img_2}}}">
+		                <div class="content">
+		                    <h5>Video Marketing</h5>
+		                    <p>We tend to love the things that are most scarce. The less there is of something, the more we value it.</p>
+		                </div>
+		            </div>
+		            <div class="col-md-4 service mb-5 aos-init aos-animate">
+		                <img class="icon mr-4" src="{{{page.service.img_3}}}">
+		                <div class="content">
+		                    <h5>Web Design</h5>
+		                    <p>There is one thing the Design must contain, the humanity of the moment.</p>
+		                </div>
+		            </div>
+		            <div class="col-md-4 service mb-5 aos-init aos-animate">
+		                <img class="icon mr-4" src="{{{page.service.img_4}}}">
+		                <div class="content">
+		                    <h5>Graphics Design</h5>
+		                    <p>Graphics Design is a way of feeling, of touching, of loving.</p>
+		                </div>
+		            </div>
+		            <div class="col-md-4 service mb-5 aos-init aos-animate">
+		                <img class="icon mr-4" src="{{{page.service.img_5}}}">
+		                <div class="content">
+		                    <h5>Digital Marketing</h5>
+		                    <p>When words become unclear, I shall focus with Marketing. When images become inadequate, I shall be content with silence.</p>
+		                </div>
+		            </div>
+		            <div class="col-md-4 service mb-5 aos-init aos-animate">
+		                <img class="icon mr-4" src="{{{page.service.img_6}}}">
+		                <div class="content">
+		                    <h5>Branding Design</h5>
+		                    <p>In Branding there is a reality so subtle that it becomes more real than reality.</p>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+		{{>testimonial}}
+		<section class="py-md-5 block text-center contact-block mb-5">
+		    <div class="container">
+		        <div class="row block-header">
+		            <div class="col-sm-8 mx-auto text-center">
+		                <h1 class="display-4 mt-2 section-title">{{page.contact.header}}</h1>
+		                <hr>
+		                <p class="lead">{{page.contact.subheader}}</p>
+		            </div>
+		        </div>
+		        <div class="row mt-5">
+		            <form class="col-md-4 col-xl-4 mx-auto input-border" id="subscribeForm">
+		                <div class="form-group">
+		                    <input id="name" name="name" type="text" class="form-control form-control-lg" placeholder="Name" required>
+		                </div>
+		                <div class="form-group">
+		                    <input id="email" name="email" type="email"  class="form-control form-control-lg" placeholder="email@example.com" required>
+		                </div>
+		                <div class="form-group">
+		                    <input id="message" name="message" type="text" class="form-control form-control-lg" required rows="6" placeholder="Message">
+		                </div>
+		                 <button class="btn btn-block btn-lg btn-info" type="submit">SEND</button>
+		            </form>
+		        </div>
+		    </div>
+
+		</section>
+
+
+        {{>footer}}
+    </div>
+
+    <script>
+    document.getElementById('subscribeForm').addEventListener('submit',onSubmit);
+    
+    function onSubmit(e){
+        e.preventDefault();
+        
+        grecaptcha.execute('6Lft5OoUAAAAAGWrlsymKJDrnRiA-Q9EVZJ-gIkF', {action: 'homepage'}).then(function(token) {
+
+        // This data is not being used in the back end (Only the token), but i have it here for to experiment
+        const name = document.querySelector('#name').value;
+        const email = document.querySelector('#email').value;
+        const message = document.querySelector('#message').value;
+        const captcha = token;
+
+            fetch('/api/subscriber',{
+            method: 'POST',
+            headers:{
+                    'Accept': 'application/json, text/plain, */*',
+                    'Content-Type': 'application/json'
+                
+            },
+            body:JSON.stringify({name:name,email:email,message:message,captcha:captcha})
+            }).then(res => res.json()).then(data => { alert("msg: Thank You for your message, We'll get back to you right away!")})     
+
+        });
+        
+    }
+	</script>
+
+    {{>scripts}}
+    <script src="{{{cdn}}}/js/contact.js"></script>
+ 
+</body>
+</html>
